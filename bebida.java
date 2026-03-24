@@ -1,3 +1,3 @@
-public class bebida {
+public class bebida extends producto {
     
 }
