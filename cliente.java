@@ -1,3 +1,20 @@
 public class cliente {
-    
+    private String nombre;
+    private String identificacion;
+}
+public cliente (String nombre, String identificacion){
+    this.nombre = nombre;
+    this.identificacion = identificacion;
+}
+public String getNombre(){
+    return nombre;
+}
+public String setNombre(String nombre){
+    this.nombre = nombre;
+}
+public String getIdentificacion(){
+    return identificacion;
+}
+public String setIdentificacion(){
+    this.identificacion = identificacion;
 }
