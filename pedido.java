@@ -1,10 +1,10 @@
-public class Pedido {
-    private Cliente cliente;
-    private Producto producto;
+public class pedido {
+    private cliente cliente;
+    private producto producto;
     private int cantidad;
     private float total;
 
-    public Pedido(Cliente cliente, Producto producto, int cantidad) {
+    public pedido(cliente cliente, producto producto, int cantidad) {
         this.cliente = cliente;
         this.producto = producto;
         this.cantidad = cantidad;
@@ -15,10 +15,10 @@ public class Pedido {
         return producto.getPrecio() * cantidad;
     }
 
-    public Cliente getCliente() {return cliente; }
-    public void setCliente(Cliente cliente) {this.cliente = cliente; }
-    public Producto getProducto() { return producto; }
-    public void setProducto(Producto producto) { this.producto = producto; }
+    public cliente getCliente() { return cliente; }
+    public void setCliente(cliente cliente) { this.cliente = cliente; }
+    public producto getProducto() { return producto; }
+    public void setProducto(producto producto) { this.producto = producto; }
     public int getCantidad() { return cantidad; }
     public void setCantidad(int cantidad) { this.cantidad = cantidad; }
     public float getTotal() { return total; }

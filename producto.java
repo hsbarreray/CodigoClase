@@ -8,14 +8,14 @@ public class producto {
 
     }
 
-    public String getnombre(){
+    public String getNombre(){
         return nombre;
     }
 
-    public float getprecio(){
+    public float getPrecio(){
         return precio;
     }
-    public void setprecio(float precio) {
+    public void setPrecio(float precio) {
         this.precio= precio;
     }
 }

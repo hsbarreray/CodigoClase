@@ -1,7 +1,7 @@
 public class comida extends producto{
     private String tipo;
-public comida(String tipo, String nombre, float precio){
-    super (nombre,precio);
+public comida(String nombre, float precio, String tipo) {
+    super(nombre, precio);
     this.tipo = tipo;
 }
 public String getTipo(){
