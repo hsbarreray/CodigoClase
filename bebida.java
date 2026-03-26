@@ -1,7 +1,7 @@
 public class bebida extends producto {
     private String tamaño;
 
-    public bebida (String nombre, float precio ,String tamaño{
+    public bebida (String nombre, float precio, String tamaño){
         super(tamaño,precio);
         this.tamaño = tamaño;
     }
